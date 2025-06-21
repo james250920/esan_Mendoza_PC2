@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import esan.mendoza.pc2.presentation.ConversionScreen
 import esan.mendoza.pc2.presentation.auth.LoginScreen
 import esan.mendoza.pc2.presentation.home.HomeScreen
 
@@ -23,6 +24,12 @@ fun Navigation() {
                 HomeScreen(navController)
             }
         }
+        composable("conversion"){
+            DrawerScaffold(navController) {
+                ConversionScreen()
+            }
+        }
+
 
 
     }
