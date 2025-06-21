@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "953302438929",
+    "project_id": "mendoza-pc2",
+    "storage_bucket": "mendoza-pc2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953302438929:android:404b94fa39ccc8a9eccdb0",
+        "android_client_info": {
+          "package_name": "esan.mendoza.pc2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhdUIWW1nGxsVCA_rDAzYYV7P9VDKWDRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
